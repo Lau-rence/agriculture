@@ -1,0 +1,11 @@
+import { extendTheme } from '@chakra-ui/react';
+
+const theme = extendTheme({
+  fonts: {
+    heading: `Bebas Neue`,
+    body: `Reem Kufi`,
+    footer: `Readex Pro`
+  }
+});
+
+export default theme;
